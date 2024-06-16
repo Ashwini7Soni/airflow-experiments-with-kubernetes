@@ -139,7 +139,7 @@ Copy the dag python files and extract.py to the airflow dag location. In WSL ubu
 
 You will be able to see your dag and run it from the airflow UI.
 
-##### Note: In this standalone version of airflow, a lot of example pipelines are given. Checkout the UI. Explore the code as per your use case and reuse.
+##### Note: In this standalone version of airflow, a lot of example pipelines are given. Checkout the UI. Explore the code as per your use case and reuse. Local location: ```/usr/local/lib/python3.10/dist-packages/airflow/example_dags/```
 
 
 
