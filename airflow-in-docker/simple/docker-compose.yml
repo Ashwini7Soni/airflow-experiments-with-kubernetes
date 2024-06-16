@@ -3,7 +3,7 @@ services:
   sleek-airflow:
     image: apache/airflow
     volumes:
-      - ./airflow:/opt/airflow
+      - /mnt/c/zdinosaur/volume-mount/docker-airflow-dags-simple:/opt/airflow
     ports:
       - "8080:8080"
     command: airflow standalone
